@@ -5,7 +5,7 @@
 
 ### How to deploy FPR articles?
 ```
-git clone https://github.com/tactlabs/featurepreneur-articles
+git clone https://github.com/featurepreneur/articles
 cd featurepreneur-articles
 yarn
 sudo vuepress dev docs
