@@ -16,6 +16,9 @@ sudo apt install npm
 # verfiy NPM
 npm --version
 
+# Yarn installation
+curl -o- -L https://yarnpkg.com/install.sh | bash
+
 # Install vue-cli
 npm install -g @vue/cli
 
@@ -33,8 +36,6 @@ cd articles
 # verify yarn
 yarn --version
 
-# if yarn is not available, install it
-<command will come here>
 
 # simple setup on the project folder
 yarn
