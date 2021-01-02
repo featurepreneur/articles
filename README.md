@@ -1,5 +1,5 @@
 
-# VuePress Theme Featurepreneur
+# Featurepreneur Articles
 
 
 ### Tools have to be installed for FPR
