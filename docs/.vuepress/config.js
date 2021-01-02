@@ -8,13 +8,13 @@ module.exports = {
   authors: [
       {
       name: 'Naveen',
-      avatar: 'https://avatarfiles.alphacoders.com/145/thumb-145059.png',
+      avatar: 'https://miro.medium.com/fit/c/262/262/0*gMBbmWkbCglnrz_-',
       link: 'https://featurepreneur.com/donate',
       linktext: 'Follow',
       },
       {
         name: 'Raja CSP',
-        avatar: 'https://avatarfiles.alphacoders.com/169/thumb-169234.png',
+        avatar: 'https://miro.medium.com/fit/c/262/262/1*ESWo3C7POnPUL5bMBJxlKA.jpeg',
         link: 'https://medium.com/@rajacsp',
         linktext: 'Follow',
       },
@@ -46,6 +46,18 @@ module.exports = {
         name: 'Sakthi',
         avatar: 'https://avatarfiles.alphacoders.com/264/thumb-264313.jpg',
         link: 'https://divya07msd.medium.com/',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Shruti',
+        avatar: 'https://miro.medium.com/fit/c/262/262/1*qV8vjbsMZc0TFFPIYFf4jg.jpeg',
+        link: 'https://medium.com/@shrued',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Vaishnavi V',
+        avatar: 'https://miro.medium.com/fit/c/96/96/0*taIGTw7Hm9Pgm2i6.jpg',
+        link: 'https://medium.com/@vaishnavivenkat26',
         linktext: 'Follow',
       },
 
