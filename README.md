@@ -22,6 +22,9 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 # verify yarn
 yarn --version
 
+# Install vue
+npm install vue@next
+
 # Install vue-cli
 npm install -g @vue/cli
 # or
