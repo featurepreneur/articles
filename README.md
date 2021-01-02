@@ -18,6 +18,8 @@ npm --version
 
 # Yarn installation
 curl -o- -L https://yarnpkg.com/install.sh | bash
+# or
+https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/
 
 # verify yarn
 yarn --version
