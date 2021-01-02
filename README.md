@@ -5,14 +5,23 @@
 ### Tools have to be installed for FPR
 ```
 # Nodejs
+sudo apt install nodejs
+
+# Verify Nodejs
+node --version
+
+# Install NPM
+sudo apt install npm
 
 # verfiy NPM
+npm --version
 
-# vue-cli
+# Install vue-cli
+npm install -g @vue/cli
 
 # vuepres
+sudo yarn global add vuepress
 
-# yarn
 ```
 
 
