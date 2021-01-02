@@ -24,6 +24,8 @@ yarn --version
 
 # Install vue-cli
 npm install -g @vue/cli
+# or
+yarn global add @vue/cli
 
 # vuepres
 sudo yarn global add vuepress
