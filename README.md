@@ -19,6 +19,9 @@ npm --version
 # Yarn installation
 curl -o- -L https://yarnpkg.com/install.sh | bash
 
+# verify yarn
+yarn --version
+
 # Install vue-cli
 npm install -g @vue/cli
 
@@ -32,10 +35,6 @@ sudo yarn global add vuepress
 ```
 git clone https://github.com/featurepreneur/articles
 cd articles
-
-# verify yarn
-yarn --version
-
 
 # simple setup on the project folder
 yarn
