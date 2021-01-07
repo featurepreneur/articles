@@ -106,10 +106,17 @@ yarn --version
 
 # Install vue-cli
 npm install -g @vue/cli
+
 yarn global add vuepress
+
+#Install yarn to package
+yarn
 
 # run and check locally
 vuepress dev docs
+
+#build for prod
+vuepress build docs
 
 # deploy on prod (github pages)
 bash deploy.sh
