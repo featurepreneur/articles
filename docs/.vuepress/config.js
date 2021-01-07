@@ -91,6 +91,12 @@ module.exports = {
         linktext: 'Follow',
       },
       {
+        name: 'Alvis F',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*lazTy6egbNg1Gh12',
+        link: 'https://alvisf0731.medium.com/',
+        linktext: 'Follow',
+      },
+      {
         name: 'Rakshmitha',
         avatar: 'https://miro.medium.com/fit/c/262/262/0*SYk7FM5pPyuazZfc',
         link: 'https://rakshmitha17.medium.com/',
