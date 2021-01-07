@@ -89,7 +89,14 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/262/262/0*7x5YGefRyTCKv7qt',
         link: 'https://medium.com/@vyshna1999',
         linktext: 'Follow',
+      },
+      {
+        name: 'Rakshmitha',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*SYk7FM5pPyuazZfc',
+        link: 'https://rakshmitha17.medium.com/',
+        linktext: 'Follow',
       }
+      
 
 
 
