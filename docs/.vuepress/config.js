@@ -60,6 +60,12 @@ module.exports = {
         link: 'https://medium.com/@vaishnavivenkat26',
         linktext: 'Follow',
       },
+      {
+        name: 'TactLabs',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*go2alZqQzHzfP4W9.jpg',
+        link: 'https://tactlabs.medium.com/',
+        linktext: 'Follow',
+      }
 
       // more avatars: https://avatars.alphacoders.com/avatars/random
     ],
