@@ -65,7 +65,14 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/262/262/0*go2alZqQzHzfP4W9.jpg',
         link: 'https://tactlabs.medium.com/',
         linktext: 'Follow',
+      },
+      {
+        name: 'Gokul Prakash',
+        avatar: 'https://miro.medium.com/fit/c/131/131/0*HkEU8rzmi-9j6epg',
+        link: 'https://medium.com/@gokulprakash22',
+        linktext: 'Follow',
       }
+
 
       // more avatars: https://avatars.alphacoders.com/avatars/random
     ],
