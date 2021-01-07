@@ -71,6 +71,12 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/131/131/0*HkEU8rzmi-9j6epg',
         link: 'https://medium.com/@gokulprakash22',
         linktext: 'Follow',
+      },
+      {
+        name: 'Charles Samuel R',
+        avatar: 'https://miro.medium.com/fit/c/262/262/1*Eeg1Z7n_OxZqClLJnzy8qA.jpeg',
+        link: 'https://medium.com/@gokulprakash22',
+        linktext: 'Follow',
       }
 
 
