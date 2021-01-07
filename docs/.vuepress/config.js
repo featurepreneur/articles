@@ -60,6 +60,51 @@ module.exports = {
         link: 'https://medium.com/@vaishnavivenkat26',
         linktext: 'Follow',
       },
+      {
+        name: 'TactLabs',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*go2alZqQzHzfP4W9.jpg',
+        link: 'https://tactlabs.medium.com/',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Gokul Prakash',
+        avatar: 'https://miro.medium.com/fit/c/131/131/0*HkEU8rzmi-9j6epg',
+        link: 'https://medium.com/@gokulprakash22',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Charles Samuel R',
+        avatar: 'https://miro.medium.com/fit/c/262/262/1*Eeg1Z7n_OxZqClLJnzy8qA.jpeg',
+        link: 'https://medium.com/@gokulprakash22',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Aishwarya Ramaswami',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*PFUi507s06zLNK54.jpg',
+        link: 'https://medium.com/@aishuramaswami',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Vyshnavi',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*7x5YGefRyTCKv7qt',
+        link: 'https://medium.com/@vyshna1999',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Alvis F',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*lazTy6egbNg1Gh12',
+        link: 'https://alvisf0731.medium.com/',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Rakshmitha',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*SYk7FM5pPyuazZfc',
+        link: 'https://rakshmitha17.medium.com/',
+        linktext: 'Follow',
+      }
+      
+
+
 
       // more avatars: https://avatars.alphacoders.com/avatars/random
     ],
