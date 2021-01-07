@@ -77,6 +77,12 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/262/262/1*Eeg1Z7n_OxZqClLJnzy8qA.jpeg',
         link: 'https://medium.com/@gokulprakash22',
         linktext: 'Follow',
+      },
+      {
+        name: 'Aishwarya Ramaswami',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*PFUi507s06zLNK54.jpg',
+        link: 'https://medium.com/@aishuramaswami',
+        linktext: 'Follow',
       }
 
 
