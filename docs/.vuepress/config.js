@@ -83,7 +83,14 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/262/262/0*PFUi507s06zLNK54.jpg',
         link: 'https://medium.com/@aishuramaswami',
         linktext: 'Follow',
+      },
+      {
+        name: 'Vyshnavi',
+        avatar: 'https://miro.medium.com/fit/c/262/262/0*7x5YGefRyTCKv7qt',
+        link: 'https://medium.com/@vyshna1999',
+        linktext: 'Follow',
       }
+
 
 
       // more avatars: https://avatars.alphacoders.com/avatars/random
