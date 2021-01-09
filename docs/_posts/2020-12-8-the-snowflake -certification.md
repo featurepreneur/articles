@@ -25,7 +25,7 @@ Snowflake is a last generation cloud data warehouse, using one of the top three 
 
 Snowflake’s SnowPro Core Certification exam was just released a few months back (late 2019). The 2 hours, 100 questions exam tests an individual’s foundational and advance knowledge of Snowflake in both the implementation and migration, covering all topics within the Snowflake documentation.
 
-![Stunning Features](https://media.tenor.com/videos/521c57a51358314f80c2dabc148faad5/mp4)
+
 <video width="320" height="240" controls>
   <source src="https://media.tenor.com/videos/521c57a51358314f80c2dabc148faad5/mp4" type="video/mp4">
 </video>
@@ -53,7 +53,7 @@ What message sends a “SnowPro Core Certified” entry in your ad or resume? An
 As a product, Snowflake is a great data warehouse. I love the way you create complex multi-cluster virtual warehouses with a simple graphical web interface. Its simplicity is, in fact, one of the main marketing signals for the company. And, as a data engineer or data scientist, it’s easier to configure and use than Google’s BigTable or Amazon’s Redshift.
 
 
-![Stunning Features](https://media.tenor.com/videos/bb9a085573db932ac10fe1bdaf6b9a6a/mp4)
+
 <video width="320" height="240" controls>
   <source src="https://media.tenor.com/videos/bb9a085573db932ac10fe1bdaf6b9a6a/mp4" type="video/mp4">
 </video>
