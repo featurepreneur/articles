@@ -44,7 +44,13 @@ module.exports = {
       },
       {
         name: 'Sakthi',
-        avatar: 'https://avatarfiles.alphacoders.com/264/thumb-264313.jpg',
+        avatar: 'https://unsplash.com/photos/1SMD8t2SNrc.jpg',
+        link: 'https://divya07msd.medium.com/',
+        linktext: 'Follow',
+      },
+      {
+        name: 'Sameena Fathima M',
+        avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/1200px-Hopetoun_falls.jpg',
         link: 'https://divya07msd.medium.com/',
         linktext: 'Follow',
       },
