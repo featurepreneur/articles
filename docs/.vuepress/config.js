@@ -103,6 +103,12 @@ module.exports = {
         linktext: 'Follow',
       },
       {
+        name: 'Sharan Kumar Ravindran',
+        avatar: 'https://cdn-images-1.medium.com/fit/c/36/36/1*1DT6HRN4ddYXJh_byccShA.png',
+        link: 'https://medium.com/@rsharankumar',
+        linktext: 'Follow',
+      },
+      {
         name: 'Rakshmitha',
         avatar: 'https://miro.medium.com/fit/c/262/262/0*SYk7FM5pPyuazZfc',
         link: 'https://rakshmitha17.medium.com/',
