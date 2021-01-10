@@ -85,6 +85,12 @@ module.exports = {
         linktext: 'Follow',
       },
       {
+        name: 'Kamal khumar',
+        avatar: 'https://miro.medium.com/fit/c/262/262/1*ji4ClKasbDs5ENTzl06ATg.jpeg',
+        link: 'https://medium.com/@kamalkhumar22',
+        linktext: 'Follow',
+      },
+      {
         name: 'Aishwarya Ramaswami',
         avatar: 'https://miro.medium.com/fit/c/262/262/0*PFUi507s06zLNK54.jpg',
         link: 'https://medium.com/@aishuramaswami',
