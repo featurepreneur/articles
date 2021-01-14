@@ -1,12 +1,12 @@
 ---
-title: Ubuntu - Replacement (Error 404 {…Not Found…})
+title: Some awesome title
 date: 2020-01-05
 tags: 
-  - Ubuntu
-  - Internship
+  - tag1
+  - tag2
   - os
-author: Naveen
+author: Author
 featuredimg: 'https://miro.medium.com/max/700/0*yise176JsJ4MZDg2.jpg'
-summary: Ubuntu Replacement
+summary: Some Summary
 ---
 
