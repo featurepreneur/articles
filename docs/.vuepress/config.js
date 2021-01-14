@@ -132,6 +132,12 @@ module.exports = {
         link: 'https://pytorch-lightning.medium.com/',
         linktext: 'Follow',
       },
+      {
+        name: 'FPR',
+        avatar: 'https://featurepreneur.com/img/logo.png',
+        link: 'http://featurepreneur.com/',
+        linktext: 'Follow',
+      },
 
       
 

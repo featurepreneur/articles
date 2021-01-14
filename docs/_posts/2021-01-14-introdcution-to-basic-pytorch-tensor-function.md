@@ -1,13 +1,13 @@
 ---
 title: Introduction to basic PyTorch tensor functions
-date: 2020-01-14
+date: 2021-01-14
 tags: 
-  - tag1
-  - tag2
-  - os
+  - PyTorch
+  - Deep Learning
+  - Machine Learning
 author: FPR
-featuredimg: 'https://miro.medium.com/max/700/0*yise176JsJ4MZDg2.jpg'
-summary: Some Summary
+featuredimg: 'https://miro.medium.com/max/2000/1*oLcN6Vlpa-PrxnRYJGnXDQ.png'
+summary: Basics of PyTorch tensors
 ---
 
 This article is a part of “Deep Learning with Pytorch : Zero to GANs” course, provided by Jovian ML & freeCodeCamp and in its first week of the course, covered the basic PyTorch tensors & linear regression in PyTorch. Objective of this article is to talk about some of the basic tensor operations.

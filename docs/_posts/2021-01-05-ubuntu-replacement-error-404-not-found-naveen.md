@@ -1,6 +1,6 @@
 ---
 title: Ubuntu - Replacement (Error 404 {…Not Found…})
-date: 2020-01-05
+date: 2021-01-05
 tags: 
   - Ubuntu
   - Internship

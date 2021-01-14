@@ -1,6 +1,6 @@
 ---
 title: How to install Docker in Mac?
-date: 2020-01-02
+date: 2021-01-02
 tags: 
   - Docker
   - Docker Installation

@@ -1,6 +1,6 @@
 ---
 title: Introduction to PyTorch Tensors
-date: 2020-01-14
+date: 2021-01-14
 tags: 
   - PyTorch
   - Tensor

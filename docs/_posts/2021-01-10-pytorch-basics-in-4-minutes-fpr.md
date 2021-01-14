@@ -1,6 +1,6 @@
 ---
 title: PyTorch Basics in 4 Minutes
-date: 2020-01-14
+date: 2021-01-14
 tags: 
   - tag1
   - tag2
