@@ -6,7 +6,7 @@ tags:
   - tag2
   - os
 author: FPR
-featuredimg: 'https://miro.medium.com/max/700/0*yise176JsJ4MZDg2.jpg'
+featuredimg: 'https://miro.medium.com/max/1400/1*jcZLpgh3gppeFFgcpFSP0w.jpeg'
 summary: Some Summary
 ---
 
