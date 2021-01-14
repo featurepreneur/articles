@@ -119,7 +119,20 @@ module.exports = {
         avatar: 'https://miro.medium.com/fit/c/262/262/0*SYk7FM5pPyuazZfc',
         link: 'https://rakshmitha17.medium.com/',
         linktext: 'Follow',
-      }
+      },
+      {
+        name: 'Pooja Mahajan',
+        avatar: 'https://miro.medium.com/fit/c/80/80/1*OvJPeBoJ9qAyqJvEiOmupA.jpeg',
+        link: 'https://poojamahajan5131.medium.com/',
+        linktext: 'Follow',
+      },
+      {
+        name: 'PyTorch Lightning team',
+        avatar: 'https://miro.medium.com/fit/c/96/96/1*vyUMTDGEeBW9X7t7n23X7g.png',
+        link: 'https://pytorch-lightning.medium.com/',
+        linktext: 'Follow',
+      },
+
       
 
 
