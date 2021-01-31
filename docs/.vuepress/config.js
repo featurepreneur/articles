@@ -138,7 +138,12 @@ module.exports = {
         link: 'http://featurepreneur.com/',
         linktext: 'Follow',
       },
-
+      {
+        name: 'Aleksei Shabanov',
+        avatar: 'https://miro.medium.com/fit/c/96/96/0*EBdZFhWDVw4b5CGq.',
+        link: 'https://medium.com/@alexey.shabanoff',
+        linktext: 'Follow',
+      },
       
 
 
