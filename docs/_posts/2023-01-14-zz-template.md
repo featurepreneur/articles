@@ -10,3 +10,6 @@ featuredimg: 'https://miro.medium.com/max/700/0*yise176JsJ4MZDg2.jpg'
 summary: Some Summary
 ---
 
+
+
+![Graph]()
