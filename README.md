@@ -41,7 +41,7 @@ sudo yarn global add vuepress
 ### How to setup in local (Mac Only)
 ```
 # clone the repo
-git clone https://github.com/featurepreneur/articles fpr-articles
+git clone git@github.com:featurepreneur/articles.git fpr-articles
 cd fpr-articles
 
 # simple setup on the project folder
@@ -73,8 +73,8 @@ https://bit.ly/shadow-articels-sheet
 
 ### How to deploy FPR articles? (Applicable only for Macbook)
 ```
-git clone https://github.com/featurepreneur/articles
-cd articles
+git clone git@github.com:featurepreneur/articles.git fpr-articles
+cd fpr-articles
 
 # simple setup on the project folder
 yarn
