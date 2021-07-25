@@ -1,0 +1,156 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Featurepreneur Articles",
+    "home_page_url": "https://github.com/featurepreneur/articles/",
+    "feed_url": "https://github.com/featurepreneur/articles/feed.json",
+    "description": "Featurepreneur Articles - Where ML Enthusiasts can share their knowledge",
+    "items": [
+        {
+            "id": "https://github.com/featurepreneur/articles/2019/02/10/simple-sentiment-analysis-with-nlp-vader-rajacsp/",
+            "url": "https://github.com/featurepreneur/articles/2019/02/10/simple-sentiment-analysis-with-nlp-vader-rajacsp/",
+            "title": "Simple Sentiment Analysis with NLP (Vader)",
+            "summary": "Sentiment Analysis with NLP",
+            "date_modified": "2019-02-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2019/02/11/hbr-article-word-frequency-in-nltk-rajacsp/",
+            "url": "https://github.com/featurepreneur/articles/2019/02/11/hbr-article-word-frequency-in-nltk-rajacsp/",
+            "title": "HBR Article Word Frequency in NLTK",
+            "summary": "Word Frequency in NLTK",
+            "image": "https://miro.medium.com/max/700/1*kFTdRJqoMh8RdiGppF6gDg.png",
+            "date_modified": "2019-02-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2019/02/11/duplicate-content-identifier-by-jaccard-similarity-rajacsp/",
+            "url": "https://github.com/featurepreneur/articles/2019/02/11/duplicate-content-identifier-by-jaccard-similarity-rajacsp/",
+            "title": "Duplicate content Identifier by Jaccard Similarity",
+            "summary": "Duplicate content Identifier",
+            "date_modified": "2019-02-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/12/17/jeczole-a-game-of-word-building-by-sainadh/",
+            "url": "https://github.com/featurepreneur/articles/2020/12/17/jeczole-a-game-of-word-building-by-sainadh/",
+            "title": "Jeczole — A Game of Word Building",
+            "summary": "Be the winner with Movie knowledge within you.",
+            "date_modified": "2020-12-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/12/23/docker-quick-tip-by-sakthi/",
+            "url": "https://github.com/featurepreneur/articles/2020/12/23/docker-quick-tip-by-sakthi/",
+            "title": "Docker - A Quick Tip",
+            "summary": "Quick tips about Docker",
+            "date_modified": "2020-12-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2021/01/03/task-manager/",
+            "url": "https://github.com/featurepreneur/articles/2021/01/03/task-manager/",
+            "title": "Task Manager in Ubuntu",
+            "summary": "Call me to manage your tasks",
+            "date_modified": "2021-01-02T18:30:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/12/20/tact-coins-by-naveen/",
+            "url": "https://github.com/featurepreneur/articles/2020/12/20/tact-coins-by-naveen/",
+            "title": "Tact Coins - Currency of Featurepreneur",
+            "summary": "Got some Tact Coins?",
+            "date_modified": "2020-12-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/12/12/linkedin-data-collection/",
+            "url": "https://github.com/featurepreneur/articles/2020/12/12/linkedin-data-collection/",
+            "title": "LinkedIn data collection",
+            "summary": "Collect the data like a Bee",
+            "image": "https://miro.medium.com/max/1400/1*DRxNMqd1AVhQCkd39iU02A.png",
+            "date_modified": "2020-12-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2021/01/01/welcome-to-featurepreneur/",
+            "url": "https://github.com/featurepreneur/articles/2021/01/01/welcome-to-featurepreneur/",
+            "title": "Welcome to Featurepreneur",
+            "summary": "Spread the ML with Featurepreneur",
+            "date_modified": "2020-12-31T18:30:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/12/25/my-journey-with-ubuntu-so-far-by-atul/",
+            "url": "https://github.com/featurepreneur/articles/2020/12/25/my-journey-with-ubuntu-so-far-by-atul/",
+            "title": "My Journey with Ubuntu so far",
+            "summary": "How much I enjoyed Ubuntu",
+            "date_modified": "2020-12-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/04/14/ai-generated-testcases-for-your-rest-apis-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/04/14/ai-generated-testcases-for-your-rest-apis-tactlabs/",
+            "title": "AI-Generated Testcases for your REST APIs",
+            "summary": "AI-Generated Testcases for your REST APIs",
+            "date_modified": "2020-04-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/05/01/tson-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/05/01/tson-tactlabs/",
+            "title": "TSON",
+            "summary": "TSON",
+            "image": "https://miro.medium.com/max/700/1*muRPzcN195BWDNZdXLJ6DQ.png",
+            "date_modified": "2020-05-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/06/08/reaction-meter-by-using-keras-and-tensorflow-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/06/08/reaction-meter-by-using-keras-and-tensorflow-tactlabs/",
+            "title": "Reaction Meter by using Keras and Tensorflow",
+            "summary": "Reaction Meter",
+            "date_modified": "2020-06-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/06/18/interest-mapping-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/06/18/interest-mapping-tactlabs/",
+            "title": "Interest Mapping",
+            "summary": "Interest Mapping",
+            "image": "https://miro.medium.com/max/700/1*ZmDP_HgsKKMELM4HGfJhDQ.png",
+            "date_modified": "2020-06-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/06/18/facial-attendance-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/06/18/facial-attendance-tactlabs/",
+            "title": "Facial Attendance",
+            "summary": "Facial Attendance",
+            "date_modified": "2020-06-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/06/18/maams-the-world-tactlabs/",
+            "url": "https://github.com/featurepreneur/articles/2020/06/18/maams-the-world-tactlabs/",
+            "title": "MaaMs the world!",
+            "summary": "MaaMs",
+            "date_modified": "2020-06-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/08/25/feature-shop-an-opportunity-to-showcase-our-skills-gokulprakash/",
+            "url": "https://github.com/featurepreneur/articles/2020/08/25/feature-shop-an-opportunity-to-showcase-our-skills-gokulprakash/",
+            "title": "Featurepreneur — An Opportunity To Showcase Our Skills",
+            "summary": "Featurepreneur",
+            "date_modified": "2020-08-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/08/22/pytorchlightning0-9-pytorchlightningteam/",
+            "url": "https://github.com/featurepreneur/articles/2020/08/22/pytorchlightning0-9-pytorchlightningteam/",
+            "title": "PyTorch Lightning 0.9 — synced BatchNorm, DataModules and final API!",
+            "summary": "Spread the ML with Featurepreneur",
+            "image": "https://miro.medium.com/max/700/1*vAMTBrmXPUtyvqR72i-wew.gif",
+            "date_modified": "2020-08-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/08/29/metriclearning-withcatalyst-aleksershabanov/",
+            "url": "https://github.com/featurepreneur/articles/2020/08/29/metriclearning-withcatalyst-aleksershabanov/",
+            "title": "Metric Learning with Catalyst",
+            "summary": "Spread the ML with Featurepreneur",
+            "image": "https://miro.medium.com/max/2400/1*_kwjkuV7MtJCCYriwwo3uA.png",
+            "date_modified": "2020-08-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/featurepreneur/articles/2020/10/04/my-journey-from-novice-to-kaggle-master-within-1-month-gokulprakash/",
+            "url": "https://github.com/featurepreneur/articles/2020/10/04/my-journey-from-novice-to-kaggle-master-within-1-month-gokulprakash/",
+            "title": "My Journey from Novice to Kaggle Master 🤓 within 1 month 💪",
+            "summary": "Spread the ML with Featurepreneur",
+            "image": "https://miro.medium.com/max/814/1*7PYixPzDJukIPQSCRnkL4g.png",
+            "date_modified": "2020-10-04T00:00:00.000Z"
+        }
+    ]
+}

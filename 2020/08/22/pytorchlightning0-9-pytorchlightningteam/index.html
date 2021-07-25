@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PyTorch Lightning 0.9 — synced BatchNorm, DataModules and final API! | Featurepreneur Articles</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="alternate" type="application/rss+xml" href="https://github.com/featurepreneur/articles/rss.xml" title="Featurepreneur Articles RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://github.com/featurepreneur/articles/feed.atom" title="Featurepreneur Articles Atom Feed">
+    <link rel="alternate" type="application/json" href="https://github.com/featurepreneur/articles/feed.json" title="Featurepreneur Articles JSON Feed">
+    <meta name="description" content="Spread the ML with Featurepreneur">
+    
+    <link rel="preload" href="/articles/assets/css/0.styles.e88de104.css" as="style"><link rel="preload" href="/articles/assets/js/app.9fae1632.js" as="script"><link rel="preload" href="/articles/assets/js/7.8e6681b3.js" as="script"><link rel="preload" href="/articles/assets/js/3.1f72966b.js" as="script"><link rel="preload" href="/articles/assets/js/34.0f7a63ee.js" as="script"><link rel="preload" href="/articles/assets/js/5.5597dd25.js" as="script"><link rel="preload" href="/articles/assets/js/8.9fd39fc4.js" as="script"><link rel="prefetch" href="/articles/assets/js/10.d0587e0f.js"><link rel="prefetch" href="/articles/assets/js/11.4065acb5.js"><link rel="prefetch" href="/articles/assets/js/12.dd8be375.js"><link rel="prefetch" href="/articles/assets/js/13.76363fbf.js"><link rel="prefetch" href="/articles/assets/js/14.5fcb4e67.js"><link rel="prefetch" href="/articles/assets/js/15.3f3ecabe.js"><link rel="prefetch" href="/articles/assets/js/16.a2d6ce5e.js"><link rel="prefetch" href="/articles/assets/js/17.6ea87e4c.js"><link rel="prefetch" href="/articles/assets/js/18.713af0c9.js"><link rel="prefetch" href="/articles/assets/js/19.a27aa41c.js"><link rel="prefetch" href="/articles/assets/js/20.70f9e23f.js"><link rel="prefetch" href="/articles/assets/js/21.0ad1a65a.js"><link rel="prefetch" href="/articles/assets/js/22.97bab2b2.js"><link rel="prefetch" href="/articles/assets/js/23.c0168cb6.js"><link rel="prefetch" href="/articles/assets/js/24.6213ba54.js"><link rel="prefetch" href="/articles/assets/js/25.96be28bb.js"><link rel="prefetch" href="/articles/assets/js/26.bacab31c.js"><link rel="prefetch" href="/articles/assets/js/27.6ee26d66.js"><link rel="prefetch" href="/articles/assets/js/28.b15d0a44.js"><link rel="prefetch" href="/articles/assets/js/29.59b6e943.js"><link rel="prefetch" href="/articles/assets/js/30.a8106ae8.js"><link rel="prefetch" href="/articles/assets/js/31.b7ee1935.js"><link rel="prefetch" href="/articles/assets/js/32.4b9c2913.js"><link rel="prefetch" href="/articles/assets/js/33.405f2619.js"><link rel="prefetch" href="/articles/assets/js/35.2d111871.js"><link rel="prefetch" href="/articles/assets/js/36.c76a4fd5.js"><link rel="prefetch" href="/articles/assets/js/37.e616caf7.js"><link rel="prefetch" href="/articles/assets/js/38.417d989f.js"><link rel="prefetch" href="/articles/assets/js/39.0fa1c63f.js"><link rel="prefetch" href="/articles/assets/js/4.bd732ae4.js"><link rel="prefetch" href="/articles/assets/js/40.ea20405c.js"><link rel="prefetch" href="/articles/assets/js/41.b7d4cfaf.js"><link rel="prefetch" href="/articles/assets/js/42.76afe23b.js"><link rel="prefetch" href="/articles/assets/js/43.6a6602b3.js"><link rel="prefetch" href="/articles/assets/js/44.9213c2a5.js"><link rel="prefetch" href="/articles/assets/js/45.22daea5d.js"><link rel="prefetch" href="/articles/assets/js/46.637cb8ee.js"><link rel="prefetch" href="/articles/assets/js/47.d82a8962.js"><link rel="prefetch" href="/articles/assets/js/48.68e48fed.js"><link rel="prefetch" href="/articles/assets/js/49.c86d9ae9.js"><link rel="prefetch" href="/articles/assets/js/50.15fd1198.js"><link rel="prefetch" href="/articles/assets/js/51.baeca208.js"><link rel="prefetch" href="/articles/assets/js/52.2cd3a46e.js"><link rel="prefetch" href="/articles/assets/js/53.c8e94358.js"><link rel="prefetch" href="/articles/assets/js/54.a6193352.js"><link rel="prefetch" href="/articles/assets/js/55.7603edbe.js"><link rel="prefetch" href="/articles/assets/js/56.b8e8cfd2.js"><link rel="prefetch" href="/articles/assets/js/57.1bbde531.js"><link rel="prefetch" href="/articles/assets/js/58.266d1ed9.js"><link rel="prefetch" href="/articles/assets/js/59.10f65f52.js"><link rel="prefetch" href="/articles/assets/js/6.ea0187ea.js"><link rel="prefetch" href="/articles/assets/js/60.786e14f0.js"><link rel="prefetch" href="/articles/assets/js/61.1cccdbec.js"><link rel="prefetch" href="/articles/assets/js/62.9a67da0a.js"><link rel="prefetch" href="/articles/assets/js/63.b2193eb0.js"><link rel="prefetch" href="/articles/assets/js/64.8511b0c1.js"><link rel="prefetch" href="/articles/assets/js/65.f34fa898.js"><link rel="prefetch" href="/articles/assets/js/66.db204fab.js"><link rel="prefetch" href="/articles/assets/js/67.72486e4c.js"><link rel="prefetch" href="/articles/assets/js/68.fb22772e.js"><link rel="prefetch" href="/articles/assets/js/69.330b8737.js"><link rel="prefetch" href="/articles/assets/js/70.08fe684e.js"><link rel="prefetch" href="/articles/assets/js/71.d389f226.js"><link rel="prefetch" href="/articles/assets/js/72.1e7e3c60.js"><link rel="prefetch" href="/articles/assets/js/73.81ed71c6.js"><link rel="prefetch" href="/articles/assets/js/74.3adbc718.js"><link rel="prefetch" href="/articles/assets/js/75.6aa0a3dc.js"><link rel="prefetch" href="/articles/assets/js/76.783ce4bb.js"><link rel="prefetch" href="/articles/assets/js/77.ee40aaa5.js"><link rel="prefetch" href="/articles/assets/js/78.26e811db.js"><link rel="prefetch" href="/articles/assets/js/79.17fed793.js"><link rel="prefetch" href="/articles/assets/js/80.212641f3.js"><link rel="prefetch" href="/articles/assets/js/81.066413d0.js"><link rel="prefetch" href="/articles/assets/js/82.16695614.js"><link rel="prefetch" href="/articles/assets/js/83.00e1c698.js"><link rel="prefetch" href="/articles/assets/js/84.0a8783fa.js"><link rel="prefetch" href="/articles/assets/js/85.6478f739.js"><link rel="prefetch" href="/articles/assets/js/9.0f950a98.js"><link rel="prefetch" href="/articles/assets/js/vuejs-paginate.80342f30.js">
+    <link rel="stylesheet" href="/articles/assets/css/0.styles.e88de104.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><nav class="navbar navbar-expand-md navbar-light bg-white fixed-top"><div class="container"><a href="/articles/" class="navbar-brand"><img src="/articles/assets/img/logo.png"> Featurepreneur Articles </a> <button type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button> <div id="navbarsExampleDefault" class="collapse navbar-collapse"><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="/articles/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/articles/tag/" class="nav-link">Tags</a></li> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></ul></div></div></nav></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/articles/" class="mobile-home-link navbar-brand"><img src="/articles/assets/img/logo.png"> Featurepreneur Articles </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/articles/">Blog</a></li><li class="mobile-nav-item"><a href="/articles/tag/">Tags</a></li> <li class="mobile-nav-item"><a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></li></ul></div></div></div> <div class="container wrapmain"><div id="vuepress-theme-blog__post-layout" data-v-1c1f12bb><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content" data-v-1c1f12bb><div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-8" data-v-1c1f12bb><header data-v-1c1f12bb><span class="text-muted" data-v-1c1f12bb><div class="post-meta" data-v-1c1f12bb><!----> <div class="post-meta-date"><time pubdate itemprop="datePublished" datetime="2020-08-22T00:00:00.000Z">
+Sat, Aug 22 2020
+</time></div> <!----></div></span> <h1 itemprop="name headline" class="article-head mt-3" data-v-1c1f12bb>
+  PyTorch Lightning 0.9 — synced BatchNorm, DataModules and final API!
+  </h1> <p class="lead" data-v-1c1f12bb>Spread the ML with Featurepreneur</p> <div data-v-1c1f12bb><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><img src="https://miro.medium.com/fit/c/96/96/1*vyUMTDGEeBW9X7t7n23X7g.png" alt="PyTorch Lightning team" class="avatar-image"></a> <div><span>PyTorch Lightning team</span>  
+      <a href="https://pytorch-lightning.medium.com/" target="_blank" rel="noopener noreferrer" class="external btn btn-sm btn-outline-dark">Follow</a></div></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span></div></header></div></div> <div class="row justify-content-center text-center mt-4 mb-40" data-v-1c1f12bb><div class="col-md-9" data-v-1c1f12bb><img src="https://miro.medium.com/max/700/1*vAMTBrmXPUtyvqR72i-wew.gif" class="featuredimg" data-v-1c1f12bb></div></div> <div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-8" data-v-1c1f12bb><div itemprop="articleBody" class="content__default" data-v-1c1f12bb><p>Newest PyTorch Lightning release includes the final API with better data decoupling, shorter logging syntax and tons of bug fixes</p> <p>We’re happy to release PyTorch Lightning 0.9.0 today, which contains many great new features, more bug fixes than any release we ever had, but most importantly it introduced our mostly final API changes!</p> <p>Lightning is being adopted by top researchers and AI labs around the world, and we are working hard to make sure we provide a smooth experience and support for all the latest best practices.</p> <p>In this release, we are introducing two new major (and last) API changes:
+LightningDataModules
+<img src="https://miro.medium.com/max/700/1*vAMTBrmXPUtyvqR72i-wew.gif" alt="Image">
+Lightning is all about making your code more readable and structured.</p> <p>We decouple the model architecture from engineering, and we continue to do the same with data. To make sharing and reusing data splits and transforms across projects, we created LightningDataModules.</p> <p>A LightningDataModule is a shareable, reusable class that encapsulates all the steps needed for training:</p> <div class="language- extra-class"><pre><code>Download / tokenize / process.
+Clean and save to disk for reuse.
+Load inside Dataset in memory or just-in-time.
+Apply transforms (rotate, tokenize, etc…).
+Wrap inside a DataLoader.
+</code></pre></div><p>LightningDataModules can be shared and used anywhere:</p> <div class="language- extra-class"><pre class="language-text"><code>1.import pytorch_lightning as pl
+2.from torch.utils.data import random_split, DataLoader
+3.
+4.# Note - you must have torchvision installed for this example
+5.from torchvision.datasets import MNIST
+6.from torchvision import transforms
+7.
+8.
+9.class MNISTDataModule(pl.LightningDataModule):
+10.
+11.    def __init__(self, data_dir: str = './'):
+12.       super().__init__()
+13.       self.data_dir = data_dir
+14.        self.transform = transforms.Compose([
+15.            transforms.ToTensor(),
+16.            transforms.Normalize((0.1307,), (0.3081,))
+17.        ])
+18.
+19.        # self.dims is returned when you call dm.size()
+20.        # Setting default dims here because we know them.
+21.        # Could optionally be assigned dynamically in dm.setup()
+22.        self.dims = (1, 28, 28)
+23.
+24.    def prepare_data(self):
+25.        # download
+26.        MNIST(self.data_dir, train=True, download=True)
+27.        MNIST(self.data_dir, train=False, download=True)
+28.
+29.    def setup(self, stage=None):
+30.
+31.        # Assign train/val datasets for use in dataloaders
+32.        if stage == 'fit' or stage is None:
+33.    mnist_full = MNIST(self.data_dir, train=True, transform=self.transform)       
+34.            self.mnist_train, self.mnist_val = random_split(mnist_full, [55000, 5000])
+35.
+36.            # Optionally...
+37.            # self.dims = tuple(self.mnist_train[0][0].shape)
+38.
+39.        # Assign test dataset for use in dataloader(s)
+40.        if stage == 'test' or stage is None:
+41.            self.mnist_test = MNIST(self.data_dir, train=False, transform=self.transform)
+42.
+43.            # Optionally...
+44.           # self.dims = tuple(self.mnist_test[0][0].shape)
+45.
+46.    def train_dataloader(self):
+47.        return DataLoader(self.mnist_train, batch_size=32)
+48.
+49.    def val_dataloader(self):
+50.        return DataLoader(self.mnist_val, batch_size=32)
+51.
+52.    def test_dataloader(self):
+53.        return DataLoader(self.mnist_test, batch_size=32)      
+54.
+55. model = LitClassifier()
+56. trainer = Trainer()
+57. mnist = MNISTDataModule()
+58. trainer.fit(model, mnist)
+59. view raw
+</code></pre></div><p>In this video Nate Raw, DL research engineer at PyTorch Lightning, walks you step by step:</p> <p>https://youtu.be/L---MBeSXFw</p> <p>You can check out the docs on the new DataModules here.
+Step results</p> <p>We added to Lightning two new results objects: TrainResult and EvalResult. They are fancy dictionary objects to hold outputs from train/eval/test steps. They are meant to control where and when to log and how synchronization is done across accelerators:</p> <p>Use TrainResult to auto log from training_step:</p> <div class="language- extra-class"><pre class="language-text"><code># without val/test loop you can add model checkpoint or early stop
+def training_step(self, batch, batch_idx):
+  x, y = batch
+  y_hat = self(x)
+  loss = F.cross_entropy(y_hat, y)
+  result = pl.TrainResult(loss, early_stop_on=loss, checkpoint_on=loss)
+  result.log('train_loss', loss)
+  return result
+</code></pre></div><p>The ‘train_loss’ we added to TrainResult will generate automatic tensorboard logs (you can also use any of the other loggers we support):
+<img src="https://miro.medium.com/max/700/1*PS99ZwxC0dfliCA6Tt9izA.png" alt="Image">
+TrainResult default is to log every step of training.</p> <p>Use EvalResult to auto log from validation_step or test_step:</p> <div class="language- extra-class"><pre class="language-text"><code>def validation_step(self, batch, batch_idx):
+  x, y = batch
+  y_hat = self(x)
+  loss = F.cross_entropy(y_hat, y)
+  result = EvalResult()
+  result.log('val_loss', loss)
+  return result
+
+def test_step(self, batch, batch_idx):
+  x, y = batch
+  y_hat = self(x)
+  loss = F.cross_entropy(y_hat, y)
+  result = EvalResult()
+  result.log('test_loss', loss)
+  return result
+</code></pre></div><p>EvalResult default is to log every epoch end.
+<img src="https://miro.medium.com/max/700/1*K5zsUdjJdmC9iM_bY8RLzA.png" alt="Feature">
+Sync across devices</p> <p>When training on multiple GPUs/CPUs/TPU cores, you can calculate the global mean of a logged metric as follows:</p> <div class="language- extra-class"><pre class="language-text"><code>result.log('train_loss', loss, sync_dist=True)
+</code></pre></div><p>For more logging options, check out our docs.</p> <p>A few other highlights of 0.9 include:</p> <div class="language- extra-class"><pre><code>PyTorch 1.6 support
+Added saving test predictions on multiple GPUs
+Added support to export a model to ONNX format
+More sklearn metrics, SSIM, BLEU
+Added SyncBN for DDP
+Support for remote directories via gfile
+</code></pre></div><p>Read the full release notes here.</p> <p>We also upgraded our docs with some videos that illustrate core Lightning features in seconds! Check them out, and let us know what you’d like to see next!</p> <p>We want to thank all our devoted contributors for their hard work, and to the community for all your help. We definitely wouldn’t get here without you. Try it out, share your projects on our #slack, and stay tuned for our next release- 1.0!</p></div> <div class="post-meta" data-v-1c1f12bb><!----> <!----> <div itemprop="keywords" class="card-subheading post-meta-tags"><a href="/articles/tag/featurepreneur" data-v-43160e8a> featurepreneur </a><a href="/articles/tag/Pytorch" data-v-43160e8a> Pytorch </a><a href="/articles/tag/Pytorch lightning" data-v-43160e8a> Pytorch lightning </a><a href="/articles/tag/Deep Learning" data-v-43160e8a> Deep Learning </a><a href="/articles/tag/Data Science" data-v-43160e8a> Data Science </a><a href="/articles/tag/Tutorial" data-v-43160e8a> Tutorial </a></div></div></div></div></article> <div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-9" data-v-1c1f12bb><form class="newsletter" data-v-1c1f12bb><div class="newsletter__wrap"><div class="newsletter__title">Newsletter</div> <div class="newsletter__content">Subscribe to get my latest content. No spam.</div> <div class="newsletter__fields"><input type="email" name="email" aria-label="Email" placeholder="Email" required="required" autocapitalize="off" autocorrect="off" data-cy="email" value="" class="newsletter__input"> <button type="submit" data-cy="submit" class="newsletter__button">
+        Subscribe
+      </button></div></div></form> <!----></div></div> <!----></div></div> <footer class="themefooter"><div class="container"><div class="row justify-content-between"><div class="col"><a href="/"><img src="/articles/assets/img/logo.png" class="logofooter"></a></div> <div class="col text-right"><ul class="list-unstyled"><li class="contact-item"><a href="https://github.com/featurepreneur" target="_blank" rel="noopener noreferrer" class="external"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+
+</a></li></ul> <ul class="list-unstyled"><li class="copyright-item"><a href="http://featurepreneur.com/" target="_blank" rel="noopener noreferrer" class="external">2020 - 2021 @ Featureprenur</a></li><li class="copyright-item"><a href="http://featurepreneur.com/" target="_blank" rel="noopener noreferrer" class="external">Micro appreciation platform for ML Enthusiasts</a></li></ul></div></div></div></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/articles/assets/js/app.9fae1632.js" defer></script><script src="/articles/assets/js/7.8e6681b3.js" defer></script><script src="/articles/assets/js/3.1f72966b.js" defer></script><script src="/articles/assets/js/34.0f7a63ee.js" defer></script><script src="/articles/assets/js/5.5597dd25.js" defer></script><script src="/articles/assets/js/8.9fd39fc4.js" defer></script>
+  </body>
+</html>

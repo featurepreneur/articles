@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/featurepreneur/articles/</id>
+    <title>Featurepreneur Articles</title>
+    <updated>2021-07-25T14:08:52.141Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://github.com/featurepreneur/articles/"/>
+    <link rel="self" href="https://github.com/featurepreneur/articles/feed.atom"/>
+    <subtitle>Featurepreneur Articles - Where ML Enthusiasts can share their knowledge</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Simple Sentiment Analysis with NLP (Vader)]]></title>
+        <id>https://github.com/featurepreneur/articles/2019/02/10/simple-sentiment-analysis-with-nlp-vader-rajacsp/</id>
+        <link href="https://github.com/featurepreneur/articles/2019/02/10/simple-sentiment-analysis-with-nlp-vader-rajacsp/">
+        </link>
+        <updated>2019-02-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sentiment Analysis with NLP]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HBR Article Word Frequency in NLTK]]></title>
+        <id>https://github.com/featurepreneur/articles/2019/02/11/hbr-article-word-frequency-in-nltk-rajacsp/</id>
+        <link href="https://github.com/featurepreneur/articles/2019/02/11/hbr-article-word-frequency-in-nltk-rajacsp/">
+        </link>
+        <updated>2019-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Word Frequency in NLTK]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Duplicate content Identifier by Jaccard Similarity]]></title>
+        <id>https://github.com/featurepreneur/articles/2019/02/11/duplicate-content-identifier-by-jaccard-similarity-rajacsp/</id>
+        <link href="https://github.com/featurepreneur/articles/2019/02/11/duplicate-content-identifier-by-jaccard-similarity-rajacsp/">
+        </link>
+        <updated>2019-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Duplicate content Identifier]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jeczole — A Game of Word Building]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/12/17/jeczole-a-game-of-word-building-by-sainadh/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/12/17/jeczole-a-game-of-word-building-by-sainadh/">
+        </link>
+        <updated>2020-12-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Be the winner with Movie knowledge within you.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker - A Quick Tip]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/12/23/docker-quick-tip-by-sakthi/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/12/23/docker-quick-tip-by-sakthi/">
+        </link>
+        <updated>2020-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Quick tips about Docker]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Task Manager in Ubuntu]]></title>
+        <id>https://github.com/featurepreneur/articles/2021/01/03/task-manager/</id>
+        <link href="https://github.com/featurepreneur/articles/2021/01/03/task-manager/">
+        </link>
+        <updated>2021-01-02T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Call me to manage your tasks]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tact Coins - Currency of Featurepreneur]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/12/20/tact-coins-by-naveen/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/12/20/tact-coins-by-naveen/">
+        </link>
+        <updated>2020-12-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Got some Tact Coins?]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinkedIn data collection]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/12/12/linkedin-data-collection/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/12/12/linkedin-data-collection/">
+        </link>
+        <updated>2020-12-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Collect the data like a Bee]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Featurepreneur]]></title>
+        <id>https://github.com/featurepreneur/articles/2021/01/01/welcome-to-featurepreneur/</id>
+        <link href="https://github.com/featurepreneur/articles/2021/01/01/welcome-to-featurepreneur/">
+        </link>
+        <updated>2020-12-31T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Spread the ML with Featurepreneur]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Journey with Ubuntu so far]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/12/25/my-journey-with-ubuntu-so-far-by-atul/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/12/25/my-journey-with-ubuntu-so-far-by-atul/">
+        </link>
+        <updated>2020-12-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How much I enjoyed Ubuntu]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-Generated Testcases for your REST APIs]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/04/14/ai-generated-testcases-for-your-rest-apis-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/04/14/ai-generated-testcases-for-your-rest-apis-tactlabs/">
+        </link>
+        <updated>2020-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI-Generated Testcases for your REST APIs]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TSON]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/05/01/tson-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/05/01/tson-tactlabs/">
+        </link>
+        <updated>2020-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TSON]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reaction Meter by using Keras and Tensorflow]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/06/08/reaction-meter-by-using-keras-and-tensorflow-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/06/08/reaction-meter-by-using-keras-and-tensorflow-tactlabs/">
+        </link>
+        <updated>2020-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reaction Meter]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interest Mapping]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/06/18/interest-mapping-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/06/18/interest-mapping-tactlabs/">
+        </link>
+        <updated>2020-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interest Mapping]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facial Attendance]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/06/18/facial-attendance-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/06/18/facial-attendance-tactlabs/">
+        </link>
+        <updated>2020-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Facial Attendance]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MaaMs the world!]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/06/18/maams-the-world-tactlabs/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/06/18/maams-the-world-tactlabs/">
+        </link>
+        <updated>2020-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[MaaMs]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Featurepreneur — An Opportunity To Showcase Our Skills]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/08/25/feature-shop-an-opportunity-to-showcase-our-skills-gokulprakash/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/08/25/feature-shop-an-opportunity-to-showcase-our-skills-gokulprakash/">
+        </link>
+        <updated>2020-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Featurepreneur]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyTorch Lightning 0.9 — synced BatchNorm, DataModules and final API!]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/08/22/pytorchlightning0-9-pytorchlightningteam/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/08/22/pytorchlightning0-9-pytorchlightningteam/">
+        </link>
+        <updated>2020-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spread the ML with Featurepreneur]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metric Learning with Catalyst]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/08/29/metriclearning-withcatalyst-aleksershabanov/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/08/29/metriclearning-withcatalyst-aleksershabanov/">
+        </link>
+        <updated>2020-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spread the ML with Featurepreneur]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Journey from Novice to Kaggle Master 🤓 within 1 month 💪]]></title>
+        <id>https://github.com/featurepreneur/articles/2020/10/04/my-journey-from-novice-to-kaggle-master-within-1-month-gokulprakash/</id>
+        <link href="https://github.com/featurepreneur/articles/2020/10/04/my-journey-from-novice-to-kaggle-master-within-1-month-gokulprakash/">
+        </link>
+        <updated>2020-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spread the ML with Featurepreneur]]></summary>
+    </entry>
+</feed>
