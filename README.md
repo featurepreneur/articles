@@ -38,6 +38,42 @@ sudo yarn global add vuepress
 
 ```
 
+### Tools have to be installed for FPR (applicable for Ubuntu only)
+```
+# Nodejs
+sudo apt install nodejs
+
+# Verify Nodejs
+node --version
+
+# Install NPM
+sudo apt install npm
+
+# verfiy NPM
+npm --version
+
+# Yarn installation
+curl -o- -L https://yarnpkg.com/install.sh | bash
+# or
+https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/
+
+# verify yarn
+yarn --version
+
+# Install vue
+npm install vue@next
+
+# Install vue-cli
+sudo npm install -g @vue/cli
+# or
+yarn global add @vue/cli
+
+# vuepres
+yarn global add vuepress
+
+```
+
+
 ### How to setup in local (Mac Only)
 ```
 # clone the repo
