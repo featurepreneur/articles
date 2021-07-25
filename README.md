@@ -38,6 +38,38 @@ sudo yarn global add vuepress
 
 ```
 
+### How to setup in local (Mac Only)
+```
+# clone the repo
+git clone https://github.com/featurepreneur/articles fpr-articles
+cd fpr-articles
+
+# simple setup on the project folder
+yarn
+
+# run and check locally
+sudo vuepress dev docs
+
+# you should see something like this
+ℹ ｢wds｣: Project is running at http://0.0.0.0:8080/
+
+# verify 
+http://0.0.0.0:8080/ and check all previous articles available
+```
+
+
+### How to add a new page
+```
+Go to
+docs -> _posts
+
+copy 2021-01-14-zz-template.md and rename with this format 'yyyy-mm-dd--index-article_url_name'
+
+start adding new content
+
+shadow articles are here:
+https://bit.ly/shadow-articels-sheet
+```
 
 ### How to deploy FPR articles? (Applicable only for Macbook)
 ```
