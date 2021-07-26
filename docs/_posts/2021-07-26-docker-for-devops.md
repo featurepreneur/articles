@@ -35,11 +35,10 @@ Multiple **containers** can run on a single OS, whereas a virtual machine gets i
 
 > *A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.*
 
-And then there’s **Docker Compose**. It is a YAML file that has all the configuration of your application’s services. It makes the development process incredibly easy with all the services and dependencies in it. It is so that we don’t have to manually build and start each container individually. You can have your application up and running with just one command.
+And then there’s **Docker Compose**. It is a YAML file that has all the configuration of your application’s services. It makes the development procss incredibly easy with all the services and dependencies in it. It is so that we don’t have to manually build and start each container individually. You can have your application up and running with just one command.
 
 > *Compose is a tool for defining and running multi-container Docker applications.*
 
 **Wrap Up**
 
 If you’re interested in learning DevOps, I suggest you start with Docker too. Go through the official documentation of Docker for installation instructions and guidance. DevOps gives you a much deeper insight into how applications are developed to deliver quality software more efficiently.
-
